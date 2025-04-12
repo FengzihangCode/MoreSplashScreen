@@ -24,10 +24,11 @@
                 </TextBlock>
 
                 <!-- 作者 -->
-                <TextBlock Text="DannyFeng 作品" FontSize="16" Foreground="#555" />
+                <TextBlock Text="DannyFeng 作品" FontSize="16" Foreground="#555" Margin="0,0,0,6" />
 
                 <!-- 版权声明 -->
-                <TextBlock Text="Copyright (c) 2023-2025 HelloWRC. All rights reserved." FontSize="12" Foreground="#888" TextWrapping="Wrap"/>
+                <TextBlock Text="Copyright (c) 2023-2025 HelloWRC. All rights reserved."
+                           FontSize="12" Foreground="#888" TextWrapping="Wrap" Margin="0,0,0,20"/>
 
                 <!-- 状态文字 -->
                 <TextBlock x:Name="StatusTextBlock" Text="正在加载 ClassIsland" FontStyle="Italic" FontSize="14" Foreground="#444" />

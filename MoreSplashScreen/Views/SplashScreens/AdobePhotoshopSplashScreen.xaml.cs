@@ -1,5 +1,6 @@
 using System;
 using System.Windows;
+using ClassIsland.Core.Abstractions.Services;
 
 namespace MoreSplashScreen
 {
