@@ -10,8 +10,10 @@
 - Android Studio
 - Microsoft 365 [^1]
 - Microsoft Office（旧） [^1]
+- Adobe Photoshop [^2]
 
 [^1]: Microsoft、Microsoft 365 和 Microsoft Office 是 Microsoft Corporation 的商标。
+[^2]: © 1990-2024 Adobe. All rights reserved. Adobe, the Adobe logo, Adobe Photoshop are either registered trademarks or trademarks of Adobe in the United States and/or other countries.
 
 ## 需求
 
