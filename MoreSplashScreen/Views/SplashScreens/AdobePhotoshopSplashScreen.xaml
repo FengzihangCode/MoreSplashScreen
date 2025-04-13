@@ -9,41 +9,44 @@
        ShowInTaskbar="False"
        WindowStartupLocation="CenterScreen">
 
-   <Border CornerRadius="20" Background="White" BorderBrush="#DDD" BorderThickness="1">
-       <Grid>
-           <Grid.ColumnDefinitions>
-               <ColumnDefinition Width="2*" />
-               <ColumnDefinition Width="3*" />
-           </Grid.ColumnDefinitions>
+    <Border CornerRadius="20" Background="White" BorderBrush="#DDD" BorderThickness="1">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="3*" />
+            </Grid.ColumnDefinitions>
 
-           <!-- 信息 -->
-           <StackPanel Grid.Column="0" Margin="40" VerticalAlignment="Center">
-               <!-- Logo -->
+            <!-- 信息 -->
+            <StackPanel Grid.Column="0" Margin="40,0,449,0" VerticalAlignment="Center" Grid.ColumnSpan="2">
+                <TextBlock><Run Text="ClassIsland" Foreground="#000000" FontSize="40" FontWeight="Bold"/></TextBlock>
 
-               <!-- 作者 -->
-               <!-- Logo -->
-               <TextBlock><Run Text="ClassIsland" Foreground="#000000" FontSize="40" FontWeight="Bold"/></TextBlock>
+                <!-- 版权声明 -->
+                <TextBlock Text="Copyright (c) 2023-2025 HelloWRC. All rights reserved."
+                          FontSize="12" Foreground="#888" TextWrapping="Wrap" Margin="0,0,0,20" Width="405"/>
 
-               <!-- 作者 -->
-               <TextBlock Text="DannyFeng 作品" FontSize="16" Foreground="#555" Margin="0,0,0,6" />
+                <!-- 状态文字 -->
+                <TextBlock x:Name="StatusTextBlock" FontStyle="Italic" FontSize="14" Foreground="#444" ><Run Text="正在加载 ClassIsland"/><Run Language="zh-cn" Text=" ......"/></TextBlock>
 
-               <!-- 版权声明 -->
-               <TextBlock Text="Copyright (c) 2023-2025 HelloWRC. All rights reserved."
-                          FontSize="12" Foreground="#888" TextWrapping="Wrap" Margin="0,0,0,20"/>
+                <!-- Contributers 名单 -->
+                <TextBlock FontSize="11" Foreground="#666" TextWrapping="Wrap" Margin="0,20,0,0" RenderTransformOrigin="0.5,0.5" Width="409" Height="172">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="0"/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="0"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform><Run Text="HelloWRC, Doctor-yoi, 姜胤, DSZDev, 流焰 xwx, 团子, 吕璟辰, jizilin6732, "/><Run Text=" "/><Run Text="clover_yan, 干冰 DryIce, RoboMico, user111192, 零音 LyRin, LiPolymer, Amiya, Enzo Wu, itsHenry, 星澜曦光, kaokao221, 爱玩电脑的 WindowsXP, DannyFeng"/><LineBreak/><Run/><LineBreak/><Run Language="zh-cn" Text="Foremist 由 DannyFeng 拍摄"/><LineBreak/><Run/></TextBlock>
+            </StackPanel>
 
-               <!-- 状态文字 -->
-               <TextBlock x:Name="StatusTextBlock" Text="正在加载 ClassIsland" FontStyle="Italic" FontSize="14" Foreground="#444" />
-
-               <!-- Contributers 名单 -->
-               <TextBlock FontSize="11" Foreground="#666" TextWrapping="Wrap" Margin="0,20,0,0"><Run Text="HelloWRC, Doctor-yoi, 姜胤, DSZDev, 流焰 xwx, 团子, 
-                                                                                                     吕璟辰, jizilin6732, clover_yan, 干冰 DryIce, 
-                                                                                                     RoboMico, user111192, 零音 LyRin, LiPolymer, Amiya, Enzo Wu, itsHenry, 星澜曦光, kaokao221, 爱玩电脑的 WindowsXP, DannyFeng"/></TextBlock>
-           </StackPanel>
-
-           <!-- 插图 -->
-           <Border Grid.Column="1" ClipToBounds="True">
-               <Image Source="/MoreSplashScreen;component/Assets/AdobePhotoshop/Foremist.JPG" Stretch="Fill"/>
-           </Border>
-       </Grid>
-   </Border>
+            <!-- 插图 -->
+            <Border Grid.Column="1" ClipToBounds="True">
+                <Image Source="/MoreSplashScreen;component/Assets/AdobePhotoshop/Foremist.JPG" RenderTransformOrigin="0.5,0.5" Height="NaN" Margin="23,12,-105,27">
+                    <Image.RenderTransform>
+                        <RotateTransform Angle="-90" />
+                    </Image.RenderTransform>
+                </Image>
+            </Border>
+        </Grid>
+    </Border>
 </Window>
