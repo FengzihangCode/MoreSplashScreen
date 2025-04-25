@@ -10,6 +10,7 @@
 - Android Studio
 - Microsoft 365 [^1]
 - Microsoft Office（旧） [^1]
+- IslandOnTop
 - Adobe Photoshop [^2]
 
 [^1]: Microsoft、Microsoft 365 和 Microsoft Office 是 Microsoft Corporation 的商标。
