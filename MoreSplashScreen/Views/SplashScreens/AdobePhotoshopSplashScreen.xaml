@@ -36,7 +36,7 @@
                             <RotateTransform/>
                             <TranslateTransform Y="0"/>
                         </TransformGroup>
-                    </TextBlock.RenderTransform><Run Text="HelloWRC, Doctor-yoi, 姜胤, DSZDev, 流焰 xwx, 团子, 吕璟辰, jizilin6732, "/><Run Text=" "/><Run Text="clover_yan, 干冰 DryIce, RoboMico, user111192, 零音 LyRin, LiPolymer, Amiya, Enzo Wu, itsHenry, 星澜曦光, kaokao221, 爱玩电脑的 WindowsXP, DannyFeng"/><LineBreak/><Run/><LineBreak/><Run Language="zh-cn" Text="Foremist 由 DannyFeng 拍摄"/><LineBreak/><Run/></TextBlock>
+                    </TextBlock.RenderTransform><Run Text="HelloWRC, Doctor-yoi, 姜胤, DSZDev, 流焰 xwx, 团子, 吕璟辰, jizilin6732, "/><Run Text=" "/><Run Text="clover_yan, 干冰 DryIce, RoboMico, user111192, 零音 LyRin, LiPolymer, Amiya, Enzo Wu, itsHenry, 星澜曦光, kaokao221, 爱玩电脑的 WindowsXP, DannyFeng, garyxxxx2021, wjj, Nikoa"/><LineBreak/><Run/><LineBreak/><Run Language="zh-cn" Text="Foremist 由 DannyFeng 拍摄"/><LineBreak/><Run/></TextBlock>
             </StackPanel>
 
             <!-- 插图 -->
