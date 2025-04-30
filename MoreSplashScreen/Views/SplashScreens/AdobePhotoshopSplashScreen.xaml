@@ -41,7 +41,7 @@
 
             <!-- 插图 -->
             <Border Grid.Column="1" ClipToBounds="True">
-                <Image Source="/MoreSplashScreen;component/Assets/AdobePhotoshop/Foremist.JPG" RenderTransformOrigin="0.5,0.5" Height="NaN" Margin="23,12,-105,27">
+                <Image Source="/MoreSplashScreen;component/Assets/AdobePhotoshop/Foremist.png" RenderTransformOrigin="0.5,0.5" Height="NaN" Margin="23,12,-105,27">
                     <Image.RenderTransform>
                         <RotateTransform Angle="-90" />
                     </Image.RenderTransform>
