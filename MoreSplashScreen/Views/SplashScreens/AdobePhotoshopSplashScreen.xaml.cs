@@ -2,7 +2,12 @@ using System;
 using System.Windows;
 using ClassIsland.Core.Abstractions.Services;
 
-namespace MoreSplashScreen
+namespace MoreSplashScreen.Views.SplashScreens;
+
+/// <summary>
+/// AdobePhotoshopSplashScreen.xaml 的交互逻辑
+/// </summary>
+
 {
     public partial class AdobePhotoshopSplashScreen : Window
     {
