@@ -29,3 +29,5 @@
 ## 许可
 
 本项目基于 GNU General Public License v3.0 许可。
+
+Foremist © 2025 by DannyFeng is licensed under CC BY-NC-ND 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/
