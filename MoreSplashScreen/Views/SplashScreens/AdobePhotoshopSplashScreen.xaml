@@ -8,7 +8,8 @@
        Background="Transparent"
        Width="900" Height="600"
        ShowInTaskbar="False"
-       WindowStartupLocation="CenterScreen">
+       WindowStartupLocation="CenterScreen"
+       DataContext="{Binding RelativeSource={RelativeSource Self}}">
 
     <Border CornerRadius="20" Background="White" BorderBrush="#DDD" BorderThickness="1">
         <Grid>
@@ -38,7 +39,10 @@
                 <TextBlock Text="有关隐私政策及更多详细信息，请转到“关于ClassIsland”屏幕" FontSize="12" Foreground="#888" TextWrapping="Wrap" Margin="0,0,0,20"/>
 
                 <!-- 状态文字 -->
-                <TextBlock x:Name="StatusTextBlock" FontSize="14" Foreground="#444" Margin="0,0,0,24">正在加载中…</TextBlock>
+                <TextBlock FontSize="14" Foreground="#444" Margin="0,0,0,24"
+                           Text="{Binding SplashService.SplashStatus}"
+                           TextWrapping="Wrap"
+                           TextTrimming="CharacterEllipsis"/>
 
                 <!-- 贡献者名单 -->
                 <Border Background="#F6F6F6" CornerRadius="6" Padding="12" Margin="0,0,0,0">
